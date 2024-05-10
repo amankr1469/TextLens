@@ -17,7 +17,7 @@ const Container = ({ t, i }: { t: string; i: number }) => {
           onClick={() => {
             copyToCLipBoard(t);
           }}
-          className="bg-[#fff] px-5 py-2 rounded-md hover:bg-[#8d8d8d] transition-all md:text-base text-sm"
+          className="bg-[#fff] text-black px-5 py-2 rounded-md hover:bg-[#8d8d8d] transition-all md:text-base text-sm"
         >
           Copy
         </button>
